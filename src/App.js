@@ -9,8 +9,8 @@ import LoginForm from './components/LoginForm'
 // Replace your code here
 const App = () => (
   <Switch>
-    <Route exact path="/login" component={LoginForm} />
-    <Route exact path="/" component={Home} />
+    <Route exact path='/login' component={LoginForm} />
+    <Route exact path='/' component={Home} />
     <Route component={NotFound} />
   </Switch>
 )
